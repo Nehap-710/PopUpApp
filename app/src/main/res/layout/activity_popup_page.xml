@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".PopupPage">
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="15dp"
+        android:text="Pop Up App"
+        android:textColor="#99582A"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/title_ways"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:paddingTop="55dp"
+        android:text="There are 2 ways in which a Pop will show"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/title_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:paddingTop="45dp"
+        android:text="1. On ButtonPressed\n2. On Back Pressed"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/pop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#99582A"
+        android:padding="15dp"
+        android:text="Press for PopUp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
